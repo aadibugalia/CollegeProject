@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_conversion">
+
+    <fragment
+        android:id="@+id/navigation_tips"
+        android:name="com.aditya.collegeproject.ui.tipsntaxes.TipsTaxesFragment"
+        android:label="@string/title_tips"
+        tools:layout="@layout/tips_taxes_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_conversion"
+        android:name="com.aditya.collegeproject.ui.conversion.ConversionFragment"
+        android:label="@string/title_conversion"
+        tools:layout="@layout/conversion_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_calculator"
+        android:name="com.aditya.collegeproject.ui.calculator.CalculatorFragment"
+        android:label="@string/title_calculator"
+        tools:layout="@layout/calculator_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.aditya.collegeproject.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/history_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.aditya.collegeproject.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/settings_fragment" />
+</navigation>
